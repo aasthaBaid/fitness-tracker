@@ -22,7 +22,7 @@ def user_input_features():
     age = st.sidebar.slider("🎂 Age", 10, 100, 30)
     height = st.sidebar.slider("📏 Height (cm)", 120, 220, 170)
     weight = st.sidebar.slider("⚖️ Weight (kg)", 30, 150, 70)
-    duration = st.sidebar.slider("⏳ Duration (min)", 0, 120, 15)
+    duration = st.sidebar.slider("⏳ Duration (min)", 0, 40, 15)
     heart_rate = st.sidebar.slider("❤️ Heart Rate (bpm)", 60, 130, 80)
     body_temp_f = st.sidebar.slider("🌡️ Body Temperature (°F)", 96, 108, 98)
 
